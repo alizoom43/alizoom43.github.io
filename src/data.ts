@@ -39,10 +39,15 @@ export const experience: Experience[] = [
         organization: "EAB Global, Inc.",
         location: "Washington, D.C.",
         description: [
-            "TBA"
+            "Built and maintained production software, with most of my work centered on backend services, APIs, and distributed systems.",
+            "Worked across design, implementation, testing, and delivery while also taking on code reviews and technical leadership/mentorship.",
         ],
         technologies: [
-            "TBA"
+            "Backend Engineering",
+            "Distributed Systems",
+            "API Design",
+            "System Design",
+            "Technical Leadership",
         ]
     },
 
@@ -52,10 +57,14 @@ export const experience: Experience[] = [
         organization: "EAB Global, Inc.",
         location: "Washington, D.C.",
         description: [
-            "TBA"
+            "Volunteered for this security-focused role alongside my engineering work, helping connect day-to-day development with broader application security practices.",
         ],
         technologies: [
-            "TBA"
+            "Application Security",
+            "Security Tool Evaluation",
+            "Knowledge Sharing",
+            "In-Person Conferences",
+            "Engineering Team Presentations",
         ]
     }
 ];
@@ -72,10 +81,8 @@ export const research: Experience[] = [
         organization: "Georgia Institute of Technology",
         location: "Atlanta, Georgia (Remote)",
         description: [
-            "TBA"
-        ],
-        technologies: [
-            "TBA"
+            "Working on software and testing tools for research in industrial and cyber-physical systems security.",
+            "Collaborating with faculty and researchers on the testing and technical analysis of their ongoing projects.",
         ]
     }
 ];
@@ -88,11 +95,13 @@ export const research: Experience[] = [
 export const projects: Project[] = [
     {
         number: "01",
-        title: "Research Project",
+        title: "Industrial Systems Vulnerability Detection",
         description:
-            "TBA",
+            "An academic research project exploring security testing and software tooling for cyber-physical systems with the Georgia Tech Cyber-Physical Security Lab.",
         technologies: [
-            "TBA"
+            "Cyber-Physical Security",
+            "Industrial Systems",
+            "Programmable Logic Controller (PLC)",
         ]
     }
 ];
@@ -117,15 +126,134 @@ export const education: Education[] = [
 ];
 
 
-/* =========================================================
-   SKILLS
-   ========================================================= */
+// ==========================================================
+// 05 / SKILLS
+// ==========================================================
 
-export const skills: SkillGroup[] = [
+export const skills = [
     {
-        category: "LANGUAGES",
-        skills: [
-            "TBA"
-        ]
-    }
+        category: "Languages",
+        items: [
+            "Java",
+            "Kotlin",
+            "Python",
+            "SQL",
+            "Groovy",
+            "OCaml",
+        ],
+    },
+
+    {
+        category: "Backend Engineering",
+        items: [
+            "Spring Boot",
+            "Spring",
+            "REST APIs",
+            "Microservices",
+            "JPA / Hibernate",
+            "Backend Service Design",
+            "Distributed Systems",
+            "Application Architecture",
+        ],
+    },
+
+    {
+        category: "Build, Version Control & Development Tools",
+        items: [
+            "Git",
+            "GitHub",
+            "GitLab",
+            "Gradle",
+            "Maven",
+            "Atlassian (Jira, Bitbucket)",
+            "IntelliJ IDEA",
+            "Eclipse",
+            "Cursor",
+            "GitHub Copilot",
+            "ChatGPT Codex",
+        ],
+    },
+
+    {
+        category: "Data, Messaging & Caching",
+        items: [
+            "MySQL",
+            "MongoDB",
+            "Apache ActiveMQ",
+            "SQL Databases",
+            "Message Queues",
+            "Topics",
+            "Asynchronous Messaging",
+            "Redis",
+            "Caching",
+        ],
+    },
+
+    {
+        category: "Testing & Code Quality",
+        items: [
+            "JUnit",
+            "Mockito",
+            "Unit Testing",
+            "Software Testing",
+            "Code Reviews",
+            "Design Reviews",
+            "Production Debugging",
+            "Dependency Analysis",
+        ],
+    },
+
+    {
+        category: "Cloud & Infrastructure",
+        items: [
+            "AWS",
+            "AWS Lambda",
+            "Amazon S3",
+            "Amazon CloudWatch",
+            "Amazon EventBridge",
+            "AWS CodeArtifact",
+            "Docker",
+            "Kubernetes",
+            "Containerized Applications",
+            "Cloud-Based Services",
+        ],
+    },
+
+    {
+        category: "Software Engineering",
+        items: [
+            "Software Architecture",
+            "System Design",
+            "API Design",
+            "Production Software Development",
+            "Agile / Scrum",
+            "Cross-Functional Collaboration",
+            "Technical Mentoring",
+            "Technical Documentation",
+            "Engineering Knowledge Sharing",
+        ],
+    },
+
+    {
+        category: "Security",
+        items: [
+            "Application Security",
+            "Software Composition Analysis",
+            "Dependency Vulnerability Monitoring",
+            "Secure Software Development",
+            "Security Tool Evaluation",
+        ],
+    },
+
+    {
+        category: "Research & Cyber-Physical Systems",
+        items: [
+            "Cyber-Physical Systems",
+            "Industrial Security",
+            "Research Software Development",
+            "Security Testing",
+            "Experimental Design",
+            "Technical Analysis",
+        ],
+    },
 ];

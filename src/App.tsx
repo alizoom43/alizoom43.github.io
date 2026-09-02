@@ -460,10 +460,10 @@ function App() {
                 </span>
 
                                 <div className="skill-values">
-                                    {group.skills.map((skill, index) => (
+                                    {group.items.map((skill, index) => (
                                         <span key={skill}>
                       {skill}
-                                            {index < group.skills.length - 1 && (
+                                            {index < group.items.length - 1 && (
                                                 <span className="skill-divider">
                           {" / "}
                         </span>
