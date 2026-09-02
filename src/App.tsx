@@ -208,13 +208,6 @@ function App() {
               LinkedIn ↗
             </a>
 
-            <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-            >
-              Résumé ↗
-            </a>
           </nav>
         </header>
 
