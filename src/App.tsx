@@ -228,15 +228,15 @@ function App() {
               </p>
 
               <h1 id="hero-title">
-                Software Engineer / Computer Science / Research
+                Software Engineer / CompSci + AI / Research
               </h1>
 
               <div className="hero-roles">
-                <span>Software Engineer</span>
+                <span>DESIGN</span>
                 <span>/</span>
-                <span>Computer Science</span>
+                <span>BUILD (and break)</span>
                 <span>/</span>
-                <span>Research</span>
+                <span>LEARN</span>
               </div>
 
               <p className="hero-description">
