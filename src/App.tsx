@@ -316,9 +316,25 @@ function App() {
                             <p>exploring systems</p>
                             <p>learning continuously</p>
 
-                            <pre className="ascii-sketch">
-                                {`(╯°□°）╯︵ ┻━┻`}
-                            </pre>
+                            <div className="table-flip-container">
+                                <span className="table-flip-hint">
+                                    {"// hover to flip"}
+                                    <span className="hint-arrow">→</span>
+                                </span>
+
+                                <div className="table-flip"
+                                     role="img"
+                                     aria-label="Table flip ASCII art"
+                                >
+                                    <span className="table-normal">
+                                        {"┬─┬ ノ( ゜-゜ノ)"}
+                                    </span>
+
+                                    <span className="table-flipped">
+                                        {"(╯°□°）╯︵ ┻━┻"}
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
