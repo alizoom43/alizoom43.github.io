@@ -644,6 +644,28 @@ a {
             padding-left 150ms ease;
 }
 
+.project-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-number {
+    color: var(--blue);
+
+    font-family: "DM Mono", monospace;
+    font-size: 0.76rem;
+}
+
+.project-period {
+    color: var(--gray-500);
+
+    font-family: "DM Mono", monospace;
+    font-size: 0.68rem;
+
+    white-space: nowrap;
+}
+
 .project-link:hover {
     padding-left: 24px;
 
